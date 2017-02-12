@@ -1,8 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
 ## The function below caches the inverse of a matrix using list, get, set, etc
 ## Set the value of matrix and its inverse
 ## Get the value of matrix and its inverse
@@ -10,8 +8,8 @@
 makeCacheMatrix <- function(x = matrix()) {
 
   inv <- NULL
-  set <- function(y) {
-    x <<- y
+  set <- function(a) {
+    x <<- a
     inv <<- NULL
   }
   get <- function() x
